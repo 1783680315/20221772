@@ -1,32 +1,38 @@
-# 📝 第03周实验汇报：开发环境搭建与ROS2基础
-## 1.实验目标
-配置GitHub SSH密钥，实现Ubuntu命令行下的无密码代码。
+# 📝 Week 3：Python 编程与机器人控制入门
+## 实验内容
 
-连接 VS Code 与 WSL：Ubuntu 环境，提升开发效率。
+本周完成了以下任务：
 
-运行ROS2小海龟(Turtlesim)节点，练习命令行控制。
+1. 复习 Python 基础知识（数据类型、函数与面向对象类）
 
-## 2.核心实验内容
-### 🔑 2.1 GitHub SSH 密钥配置
-在Ubuntu终端中生成并配置SSH密钥，确保与GitHub的安全交互：
+2. 学习 ROS2 Python 客户端库 rclpy 的基本结构
 
+3. 编写第一个 ROS2 节点，发布 geometry_msgs/Twist 消息控制机器人运动
 
+4. 探索 PyBullet 物理仿真引擎，实现对差速小车和 Panda 机械臂的控制
 
-### 💻 2.2 VS Code 与 WSL 交互
-安装WSL扩展插件，在Windows下直接编辑Ubuntu里面的代码文件实现。
+## 实验截图
+### ROS2 节点运行成功
+### PyBullet 机器人仿真
+## 运行命令
+Bash
+# 创建并运行一个简单的 Python 节点
+python3 my_first_node.py
 
-通过 VS Code 终端直接运行 ROS2 节点，实现“代码编写-编译-调试”的功能。
+# 运行控制小乌龟直行的节点
+ros2 run my_package straight_mover
 
-### 🐢 2.3 小海龟（Turtlesim）交互实验
-启动ROS2核心节点进行命令行交易：
+# 在 PyBullet 中启动差速小车模拟
+python3 simple_car_sim.py
+## 遇到的问题
+1. **问题**：在编写 ROS2 节点时发现无法直接调用 rclpy
+   **解决**：确保在 Python 类中正确继承了 Node 类，并调用了 super().__init__('node_name')
 
-启动仿真：ros2 run turtlesim turtlesim_node
+2.**问题**：PyBullet 环境下小车运动不符合预期
+  **解决**：检查 applyExternalForce 或 setJointMotorControl2 的参数设置，确保物理参数（如质量、摩擦力）设置正确
 
-键盘控制：ros2 run turtlesim turtle_teleop_key
+## 学习心得
+通过本周学习，我掌握了如何将 Python 的面向对象编程思想应用到 ROS2 节点开发中。我深刻理解了 ROS2 节点本质上就是一个类，通过实例化该类并利用 rclpy.spin() 保持运行，可以实现稳定的消息发布与控制逻辑。此外，PyBullet 这种轻量级仿真工具为快速验证算法提供了极大便利。
 
-话题监控：使用ros2 topic list查看/turtle1/cmd_vel。
-
-## 3.实验截图展示
-![图片描述1](/home/dan/20221772/xiaowugui2.png)
-## 4.实验总结
-通过本周的实验，我打通了从底层环境（SSH/WSL）到上层应用（ROS2）的开发队列。使用top发现，小海龟仿真节点监控虽然量轻，但在高层发送控制指令时，系统的上下文切换会有所增加。
+## 返回
+[← 返回首页](../)
