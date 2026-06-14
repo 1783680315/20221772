@@ -1,28 +1,84 @@
-# AI 机器人课程作业
+# 🤖 AI 机器人课程作业
 
-本仓库整理了 AI Robotics 课程的每周作业和实验笔记。
+<div align="center">
 
-## 课程作业目录
+<pre>
+╔══════════════════════════════════════════════════════════════╗
+║                  🤖 AI 机器人课程作业                          ║
+║             每周作业 · 实验笔记 · 项目记录                       ║
+╚══════════════════════════════════════════════════════════════╝
+</pre>
 
-* [Week 2: WSL、Ubuntu 与 ROS2 环境配置](./week2/)
-* [Week 3: GitHub SSH、VS Code 与 ROS2 交互](./week3/)
-* [Week 4: 命令行、机器人基础与 Python 仿真](./week4/)
-* [Week 5: Linux 目录操作与机器人运动学](./week5/)
-* [Week 6: 传感器介绍与 ROS2 KITTI 实验](./week6/)
-* [Week 7: Markdown 与 GitHub 作业整理](./week7/)
-* [Week 8: Docker 安装与 ROS2 桌面容器](./week8/)
-* [Week 9: 机器人与机器视觉数学基础](./week9/)
-* [Week 10: Docker 概念与 OpenCV 实验](./week10/)
-* [Week 11: Docker 进阶与 GitHub Pages](./week11/)
-* [Week 12: 四足机器人仿真实验](./week12/)
-* [Week 13: 机器人视觉的基础问题](./week13/)
+**耿子善 · 软件工程**
 
-## 关于我
+</div>
 
-* **专业**：软件工程
-* **姓名**：耿子善
-  
+---
 
-## 项目说明
+## 📖 项目说明
 
-本项目使用 GitHub Pages 自动部署
+本仓库整理了 AI Robotics 课程的每周作业和实验笔记。每个有效周次均包含实验内容说明、运行截图、关键命令及学习心得，覆盖从 ROS2 环境搭建、Docker 容器化部署，到四足机器人仿真与 TurtleSim 迷宫探索的完整学习路径。
+
+本项目使用 GitHub Pages 自动部署。
+
+## 🗺️ 实验路线
+
+| 周次 | 实验主题 | 证据类型 | 链接 |
+| :---: | --- | :---: | --- |
+| Week 1 | 课程准备与初始环境 | README | [打开](./1week) |
+| Week 2 | WSL、Ubuntu 与 ROS2 环境配置 | 图片 | [打开](./2week) |
+| Week 3 | GitHub SSH、VS Code 与 ROS2 交互 | 图片 | [打开](./3week) |
+| Week 4 | 传感器数据处理与 OpenCV 入门 | 图片 | [打开](./4week) |
+| Week 5 | Linux 目录操作与机器人运动学 | 视频 | [打开](./5week) |
+| Week 6 | ROS2 Actions 与机器人逻辑集成 | 图片 | [打开](./6week) |
+| Week 7 | 期中考试 | README | [打开](./7week) |
+| Week 8 | Docker 安装与 ROS2 桌面容器 | 图片 | [打开](./8week) |
+| Week 10 | Docker 深度应用与 OpenCV 视觉 | 图片 | [打开](./10week) |
+| Week 11 | Docker 进阶与 GitHub Pages | 图片 | [打开](./11week) |
+| Week 12 | 四足机器人仿真实验 | 图片 | [打开](./12week) |
+| Week 13 | Tailscale 跨设备相机桥接与检测 | 图片 | [打开](./13week) |
+| Week 14 | PyBullet 机器狗仿真 & TurtleSim 迷宫 | Python 代码 | [打开](./14week) |
+
+> **注：** Week 9 为自主学习周，无独立作业目录。
+
+## 🏗️ 仓库地图
+
+<pre>
+20221772/
+|-- README.md              # 🏠 实验导航主页
+|-- 1week/                  # 课程准备与初始环境
+|-- 2week/                  # ROS2 环境搭建与小乌龟验证
+|-- 3week/                  # Python 编程与机器人控制入门
+|-- 4week/                  # 传感器数据处理与 OpenCV
+|-- 5week/                  # Linux 目录操作与运动学
+|-- 6week/                  # ROS2 Actions 与复杂行为控制
+|-- 7week/                  # 期中考试
+|-- 8week/                  # Docker ROS2 桌面容器
+|-- 10week/                 # Docker 与 OpenCV 视觉
+|-- 11week/                 # GitHub Pages 部署实践
+|-- 12week/                 # 四足机器人仿真
+|-- 13week/                 # Tailscale 跨设备相机桥接
+|-- 14week/                 # PyBullet 机器狗 & TurtleSim 迷宫
+</pre>
+
+## 👤 关于我
+
+| 项目 | 信息 |
+|------|------|
+| **姓名** | 耿子善 |
+| **专业** | 软件工程 |
+| **课程** | AI Robotics |
+| **仓库** | [20221772](https://github.com/1783680315/20221772) |
+
+## 🔍 评审路径
+
+1. 从 **实验路线表** 开始浏览，了解整体课程安排
+2. 打开每个 **周次文件夹**，查看详细的实验内容
+3. 查看 **实验截图**、**运行命令** 和 **学习心得**
+4. 使用 **Git 历史** 回顾提交进度与版本演变
+
+---
+
+<div align="center">
+<sub>Powered by GitHub Pages &nbsp;·&nbsp; Jekyll Theme Cayman</sub>
+</div>
