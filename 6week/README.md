@@ -11,6 +11,23 @@ Action 服务器与客户端实现：编写 Python 代码实现 Action Server �
 自定义通信接口：学习如何定义 .action 文件，并编译生成对应的 Python 通信接口。
 
 实验截图
+
+<img src="img/zidongjiashi.png" width="800" alt="KITTI RViz2 可视化">
+
+*KITTI 数据集在 RViz2 中成功渲染，点云和图像同步显示*
+
+<img src="img/avoidance_flow.png" width="800" alt="避障流程图">
+
+*基于传感器数据的避障决策流程*
+
+<img src="img/avoidance_run.png" width="800" alt="避障运行">
+
+*避障逻辑在仿真环境中运行验证*
+
+<img src="img/screenshot_1.png" width="800" alt="KITTI 数据发布">
+
+*KITTI 数据发布节点运行状态*
+
 Action 反馈机制调试
 机器人执行长时间序列任务
 运行命令
