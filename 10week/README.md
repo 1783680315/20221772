@@ -32,19 +32,19 @@ sudo apt install python3-opencv
 
 3. 实验截图展示
 
-<img src="img/screenshot_1.png" width="800" alt="Docker 命令执行">
+<img src="img/docker_command.png" width="800" alt="Docker 命令执行">
 
 *Docker 容器命令执行结果*
 
-<img src="img/screenshot_2.png" width="800" alt="OpenCV 环境验证">
+<img src="img/opencv_result.png" width="800" alt="OpenCV 环境验证">
 
 *OpenCV 在容器中成功导入*
 
-<img src="img/screenshot_3.png" width="800" alt="镜像列表">
+<img src="img/opencv_result2.png" width="800" alt="镜像列表">
 
 *Docker 镜像列表确认环境就绪*
 
-<img src="img/screenshot_4.png" width="800" alt="环境配置完成">
+<img src="img/screenshot_1.png" width="800" alt="环境配置完成">
 
 *Docker + OpenCV 环境配置完成*
 建议：这里放两张图。一张是 Docker 终端操作截图，一张是 OpenCV 处理图像的结果（比如原图 vs 灰度图）。

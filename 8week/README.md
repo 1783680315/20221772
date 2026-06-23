@@ -22,21 +22,23 @@ Mac：针对 Apple Silicon (M1/M2/M3) 架构配置 Docker 环境，确保兼容�
 🖥️ 2.3 图形界面转发 (GUI Forwarding)
 通过配置 X11 转发（Windows 下使用 WSLg 或 Mac 下使用 XQuartz），实现在容器内启动 turtlesim 窗口并在宿主机显示。
 
-## 3. 实验截图展示
 
-<img src="img/screenshot_1.png" width="800" alt="Docker 容器运行截图">
 
 *Docker 容器中成功启动 ROS2 环境*
 
-<img src="img/screenshot_2.png" width="800" alt="turtlesim 容器内运行">
+<img src="img/docker_desktop.png" width="800" alt="turtlesim 容器内运行">
 
 *turtlesim 在容器内正常运行*
 
-<img src="img/screenshot_3.png" width="800" alt="Docker 容器状态">
+<img src="img/docker_turtlesim.png" width="800" alt="turtlesim 仿真">
+
+*容器内 turtlesim 仿真运行*
+
+<img src="img/vnc_page.png" width="800" alt="Docker 容器状态">
 
 *Docker 容器运行状态监控*
 
-<img src="img/screenshot_4.png" width="800" alt="ROS2 桌面容器">
+<img src="img/screenshot_1.png" width="800" alt="ROS2 桌面容器">
 
 *ROS2 桌面容器完整界面*
 
