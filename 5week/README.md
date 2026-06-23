@@ -14,11 +14,11 @@ Linux 目录深度操作：掌握了绝对路径与相对路径的区别，学�
 
 *Linux 目录结构组织机器人运动轨迹推算*
 
-<img src="img/screenshot_1.png" width="800" alt="运动学仿真">
+<img src="img/week5.png" width="800" alt="运动学仿真">
 
 *机器人运动学仿真运行结果*
 
-<img src="img/screenshot_2.png" width="800" alt="TF 坐标变换">
+<img src="img/week5.png" width="800" alt="TF 坐标变换">
 
 *TF 坐标变换关系验证*
 
