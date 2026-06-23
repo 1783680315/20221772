@@ -24,6 +24,22 @@ Mac：针对 Apple Silicon (M1/M2/M3) 架构配置 Docker 环境，确保兼容�
 
 ## 3. 实验截图展示
 
+<img src="img/screenshot_1.png" width="800" alt="Docker 容器运行截图">
+
+*Docker 容器中成功启动 ROS2 环境*
+
+<img src="img/screenshot_2.png" width="800" alt="turtlesim 容器内运行">
+
+*turtlesim 在容器内正常运行*
+
+<img src="img/screenshot_3.png" width="800" alt="Docker 容器状态">
+
+*Docker 容器运行状态监控*
+
+<img src="img/screenshot_4.png" width="800" alt="ROS2 桌面容器">
+
+*ROS2 桌面容器完整界面*
+
 
 ## 4. 关键实验操作
 Bash
@@ -39,3 +55,11 @@ source /opt/ros/humble/setup.bash
 ros2 run turtlesim turtlesim_node
 ## 5. 实验总结
 通过 Docker 部署 ROS2，我实现了开发环境的高度解耦。相比于直接在宿主机安装，Docker 能够快速复现环境，避免了复杂的依赖冲突。这对于未来在机器狗、机械臂等不同平台上迁移控制算法具有重大意义。
+## 遇到的问题与解决
+
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| 容器内无法显示 GUI | X11 转发未配置 | 正确设置 DISPLAY 环境变量和 X11 Unix socket 挂载 |
+| 容器退出后数据丢失 | 未使用卷挂载 | 使用 -v 参数将工作目录挂载到容器内 |
+
+[← 返回首页](../)

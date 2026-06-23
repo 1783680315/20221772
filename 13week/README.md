@@ -33,3 +33,14 @@ python3 week12_starters/camera_bridge.py
 界面集成：前端通过高亮绿色边框和黄色数字标识（ID: 0），证明了算法对标签轮廓和内部矩阵数据的精确解析。
 ## 4. 实验总结
 本周完成了从环境隔离到链路打通的关键一步。在实际操作中，通过 camera_bridge.py 采集手机端的实时动态画面发送给服务端，后台 OpenCV 算子能够保持敏捷响应。检测结果表明，即使在复杂的网络数据帧转发下，基于轻量矩阵的 ArUco 的检测精确度依旧很高
+<img src="img/screenshot_1.jpeg" width="800" alt="实验截图1">
+<img src="img/screenshot_2.jpeg" width="800" alt="实验截图2">
+
+## 遇到的问题与解决
+
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| Tailscale 节点无法互通 | 未在同一账号下授权 | 确保手机和 WSL 登录同一 Tailscale 账号 |
+| Flask 服务启动失败 | 端口被占用或依赖缺失 | 检查端口并 pip install -r requirements.txt |
+
+[← 返回首页](../)

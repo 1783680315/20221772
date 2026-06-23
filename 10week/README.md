@@ -31,6 +31,22 @@ sudo apt install python3-opencv
 功能验证：编写 Python 脚本读取并显示图像，转换为灰度图以验证库文件是否正常调用。
 
 3. 实验截图展示
+
+<img src="img/screenshot_1.png" width="800" alt="Docker 命令执行">
+
+*Docker 容器命令执行结果*
+
+<img src="img/screenshot_2.png" width="800" alt="OpenCV 环境验证">
+
+*OpenCV 在容器中成功导入*
+
+<img src="img/screenshot_3.png" width="800" alt="镜像列表">
+
+*Docker 镜像列表确认环境就绪*
+
+<img src="img/screenshot_4.png" width="800" alt="环境配置完成">
+
+*Docker + OpenCV 环境配置完成*
 建议：这里放两张图。一张是 Docker 终端操作截图，一张是 OpenCV 处理图像的结果（比如原图 vs 灰度图）。
 
 左图：Docker 镜像管理与容器启动过程。
@@ -52,3 +68,15 @@ cv2.imwrite('robot_dog_gray.jpg', gray_img)
 print("OpenCV 图像处理成功！")
 5. 实验总结
 本周通过对 Docker 的学习，我能够更高效地管理不同版本的 ROS 2 环境。同时，OpenCV 的引入为后续给机器狗添加“视觉感知”能力奠定了基础。在实验中我发现，在 Docker 容器内运行 OpenCV 窗口需要额外配置 X11 转发，这与第八周的 GUI 配置逻辑是一致的。
+## 遇到的问题与解决
+
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| Docker commit 后镜像过大 | 未清理缓存 | commit 前清理 apt/pip 缓存 |
+| OpenCV 在容器内导入失败 | 缺少系统依赖库 | apt install libgl1-mesa-glx 等依赖 |
+
+## 总结与反思
+
+Docker 让视觉开发环境可复现，结合 OpenCV 和 PyBullet 能快速搭建机器人仿真平台。
+
+[← 返回首页](../)

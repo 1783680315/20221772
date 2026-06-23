@@ -12,11 +12,11 @@
 
 ### Ubuntu 安装成功
 
-<img src="img/ubuntu-install.png" alt="Ubuntu 安装" width="600">
+<img src="img/screenshot_1.png" alt="Ubuntu 安装" width="600">
 
 ### 小乌龟仿真运行
 
-<img src="img/turtlesim.png" alt="小乌龟" width="600">
+<img src="img/screenshot_2.png" alt="小乌龟" width="600">
 
 ## 运行命令
 
@@ -39,6 +39,18 @@ ros2 run turtlesim turtle_teleop_key
 
 ## 返回
 
+<img src="img/screenshot_3.png" width="600" alt="ROS2 节点列表">
+
+<img src="img/screenshot_4.png" width="600" alt="ROS2 话题列表">
+
 [← 返回首页](../)
 
 
+
+## 延伸思考
+
+ROS2 环境搭建是后续所有机器人实验的基础。WSL2 + Ubuntu 的方案让 Windows 用户无需双系统即可进行 ROS2 开发，turtlesim 作为验证工具简单直观，能快速确认环境是否正确配置。
+
+同时，ROS2 的分布式架构设计使得后续可以轻松扩展传感器节点、控制节点和可视化节点，为复杂的机器人系统奠定了通信基础。
+
+在实际操作中，turtlesim 小乌龟的成功运行标志着 ROS2 环境的完整可用，为 Week 3 的话题通信和后续的 Python 编程奠定了基础。
