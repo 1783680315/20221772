@@ -39,9 +39,9 @@ ros2 run turtlesim turtle_teleop_key
 
 ## 返回
 
-<img src="img/screenshot_3.png" width="600" alt="ROS2 节点列表">
+<img src="img/screenshot_1.png" width="600" alt="ROS2 节点列表">
 
-<img src="img/screenshot_4.png" width="600" alt="ROS2 话题列表">
+<img src="img/screenshot_1.png" width="600" alt="ROS2 话题列表">
 
 [← 返回首页](../)
 
