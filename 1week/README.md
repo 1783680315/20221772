@@ -45,11 +45,11 @@ git clone git@github.com:your-repo.git
 
 <img src="img/screenshot_1.png" width="800" alt="GitHub 环境配置">
 
-<img src="img/screenshot_2.png" width="800" alt="VS Code 编辑器">
+<img src="img/screenshot_1.png" width="800" alt="VS Code 编辑器">
 
-<img src="img/screenshot_3.png" width="800" alt="SSH 密钥配置">
+<img src="img/screenshot_1.png" width="800" alt="SSH 密钥配置">
 
-<img src="img/screenshot_4.png" width="800" alt="工具链验证">
+<img src="img/screenshot_1.png" width="800" alt="工具链验证">
 [← 返回首页](../)
 
 工具链的完整配置确保了后续 ROS2、Docker 等复杂环境的顺利搭建，提前解决认证和编辑问题让每周作业提交更加高效。
