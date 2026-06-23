@@ -31,6 +31,15 @@
 
 前半学期的学习从环境搭建逐步深入到传感器数据处理，ROS2 的话题通信机制贯穿始终。期中复习帮助我理清了各周内容之间的逻辑关系，为后半学期的 Docker、OpenCV 和期末项目打下基础。
 
+## 实验截图
+
+<img src="img/screenshot_1.png" width="800" alt="ROS2 节点列表">
+
+<img src="img/screenshot_2.png" width="800" alt="ROS2 话题列表">
+
+<img src="img/screenshot_3.png" width="800" alt="正方形轨迹">
+
+<img src="img/screenshot_4.png" width="800" alt="PID 控制验证">
 [← 返回首页](../)
 
 ## 延伸思考

@@ -41,6 +41,15 @@ git clone git@github.com:your-repo.git
 
 工具链的准备看似简单，但 Git、SSH 和编辑器的正确配置是整个学期顺利提交作业的基础。提前解决认证问题可以避免后续每周提交时的困扰。
 
+## 实验截图
+
+<img src="img/screenshot_1.png" width="800" alt="GitHub 环境配置">
+
+<img src="img/screenshot_2.png" width="800" alt="VS Code 编辑器">
+
+<img src="img/screenshot_3.png" width="800" alt="SSH 密钥配置">
+
+<img src="img/screenshot_4.png" width="800" alt="工具链验证">
 [← 返回首页](../)
 
 工具链的完整配置确保了后续 ROS2、Docker 等复杂环境的顺利搭建，提前解决认证和编辑问题让每周作业提交更加高效。

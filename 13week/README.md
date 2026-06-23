@@ -43,4 +43,7 @@ python3 week12_starters/camera_bridge.py
 | Tailscale 节点无法互通 | 未在同一账号下授权 | 确保手机和 WSL 登录同一 Tailscale 账号 |
 | Flask 服务启动失败 | 端口被占用或依赖缺失 | 检查端口并 pip install -r requirements.txt |
 
+<img src="img/screenshot_1.jpeg" width="800" alt="Tailscale 组网">
+
+<img src="img/screenshot_2.jpeg" width="800" alt="Flask 桥接运行">
 [← 返回首页](../)
