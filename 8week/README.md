@@ -34,11 +34,11 @@ Mac：针对 Apple Silicon (M1/M2/M3) 架构配置 Docker 环境，确保兼容�
 
 *容器内 turtlesim 仿真运行*
 
-<img src="img/vnc_page.png" width="800" alt="Docker 容器状态">
+<img src="img/docker_desktop.png" width="800" alt="Docker 容器状态">
 
 *Docker 容器运行状态监控*
 
-<img src="img/screenshot_1.png" width="800" alt="ROS2 桌面容器">
+<img src="img/docker_turtlesim.png" width="800" alt="ROS2 桌面容器">
 
 *ROS2 桌面容器完整界面*
 
