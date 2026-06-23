@@ -12,8 +12,23 @@
 4. 探索 PyBullet 物理仿真引擎，实现对差速小车和 Panda 机械臂的控制
 
 ## 实验截图
-### ROS2 节点运行成功
-### PyBullet 机器人仿真
+
+<img src="xiaowugui.png" width="800" alt="ROS2 节点运行成功">
+
+*ROS2 Python 节点成功发布控制指令*
+
+<img src="xiaowugui2.png" width="800" alt="PyBullet 机器人仿真">
+
+*PyBullet 差速小车仿真运行*
+
+<img src="img/screenshot_1.png" width="800" alt="turtlesim 控制">
+
+*turtlesim 话题通信验证*
+
+<img src="img/screenshot_2.png" width="800" alt="仿真结果">
+
+*机器人运动控制仿真结果*
+
 ## 运行命令
 Bash
 # 创建并运行一个简单的 Python 节点
