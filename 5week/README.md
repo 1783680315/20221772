@@ -9,7 +9,27 @@ Linux 目录深度操作：掌握了绝对路径与相对路径的区别，学�
 4. 实践：手算位姿更新：根据给定的线速度 $v$ 和角速度 $\omega$，计算机器人在一段时间 $\Delta t$ 后的新坐标 $(x, y, \theta)$。
 
 ## 实验截图
-Linux 目录结构组织机器人运动轨迹推算
+
+<img src="img/week5.png" width="800" alt="Linux 目录结构与运动轨迹">
+
+*Linux 目录结构组织机器人运动轨迹推算*
+
+<img src="img/screenshot_1.png" width="800" alt="运动学仿真">
+
+*机器人运动学仿真运行结果*
+
+<img src="img/screenshot_2.png" width="800" alt="TF 坐标变换">
+
+*TF 坐标变换关系验证*
+
+<img src="video1.webm" width="800" alt="实验录屏1">
+
+*实验过程录屏*
+
+<img src="video2.webm" width="800" alt="实验录屏2">
+
+*实验过程录屏*
+
 ## 运行命令
 Bash
 # 递归创建多级目录
