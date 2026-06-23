@@ -27,6 +27,24 @@ docker images
 docker ps
 ```
 
+## 实验截图
+
+<img src="img/screenshot_1.png" width="800" alt="Docker 容器操作">
+
+*Docker 容器命令执行结果*
+
+<img src="img/screenshot_2.png" width="800" alt="镜像管理">
+
+*Docker 镜像提交与管理*
+
+<img src="img/screenshot_3.png" width="800" alt="GitHub Pages 部署">
+
+*GitHub Pages 部署验证*
+
+<img src="screenshot.png" width="800" alt="环境配置确认">
+
+*实验环境配置确认*
+
 ## 遇到的问题与解决
 
 | 问题 | 原因 | 解决方案 |
