@@ -14,6 +14,25 @@
 ## 实验截图
 LiDAR 避障逻辑实现
 OpenCV 图像颜色分割
+
+## 实验截图
+
+<img src="dog.png" width="800" alt="PyBullet 四足机器人仿真">
+
+*Laikago 四足机器人在 PyBullet 中成功加载*
+
+<img src="img/screenshot_1.png" width="800" alt="机器人仿真运行">
+
+*仿真环境运行截图*
+
+<img src="img/screenshot_2.png" width="800" alt="LiDAR 数据可视化">
+
+*LiDAR 传感器数据可视化结果*
+
+<img src="img/screenshot_3.png" width="800" alt="OpenCV 颜色分割">
+
+*OpenCV 图像颜色分割实验结果*
+
 ## 运行命令
 Bash
 # 查看雷达数据信息
