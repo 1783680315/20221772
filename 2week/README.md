@@ -18,6 +18,14 @@
 
 <img src="img/screenshot_2.png" alt="小乌龟" width="600">
 
+### 实验环境截图
+
+<img src="img/1.png" width="600" alt="实验环境">
+
+<img src="img/screenshot_3.png" width="600" alt="ROS2 节点列表">
+
+<img src="img/screenshot_4.png" width="600" alt="ROS2 话题">
+
 ## 运行命令
 
 \`\`\`bash
