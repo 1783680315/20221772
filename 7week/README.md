@@ -35,11 +35,11 @@
 
 <img src="img/screenshot_1.png" width="800" alt="ROS2 节点列表">
 
-<img src="img/screenshot_2.png" width="800" alt="ROS2 话题列表">
+<img src="img/screenshot_1.png" width="800" alt="ROS2 话题列表">
 
-<img src="img/screenshot_3.png" width="800" alt="正方形轨迹">
+<img src="img/screenshot_1.png" width="800" alt="正方形轨迹">
 
-<img src="img/screenshot_4.png" width="800" alt="PID 控制验证">
+<img src="img/screenshot_1.png" width="800" alt="PID 控制验证">
 [← 返回首页](../)
 
 ## 延伸思考
